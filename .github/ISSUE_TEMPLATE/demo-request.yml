@@ -1,0 +1,71 @@
+name: Request a Demo
+description: Schedule a live walkthrough of the FinCrime Compliance Platform
+title: "[Demo Request] — "
+labels: ["demo-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest! Fill in the details below and we'll reach out within 1–2 business days to schedule a session.
+
+  - type: input
+    id: name
+    attributes:
+      label: Your Name
+      placeholder: e.g. Jane Smith
+    validations:
+      required: true
+
+  - type: input
+    id: company
+    attributes:
+      label: Company / Organization
+      placeholder: e.g. Acme Bank, FinTech Corp
+    validations:
+      required: true
+
+  - type: input
+    id: role
+    attributes:
+      label: Your Role
+      placeholder: e.g. Compliance Officer, CTO, Head of Risk
+    validations:
+      required: true
+
+  - type: dropdown
+    id: use_case
+    attributes:
+      label: Primary Use Case
+      options:
+        - AML Transaction Monitoring
+        - SAR / CTR Filing Automation
+        - KYC & Customer Risk Scoring
+        - Fraud Detection
+        - Regulatory Reporting
+        - Full Platform Evaluation
+    validations:
+      required: true
+
+  - type: input
+    id: volume
+    attributes:
+      label: Approximate Monthly Transaction Volume
+      placeholder: e.g. 50,000 / month
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: Brief description of your current compliance workflow and pain points
+    validations:
+      required: false
+
+  - type: input
+    id: email
+    attributes:
+      label: Contact Email
+      placeholder: you@yourcompany.com
+    validations:
+      required: true
