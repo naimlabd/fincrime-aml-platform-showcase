@@ -129,7 +129,7 @@ This is **not** a wrapper around a generic LLM. Every regulatory decision is det
 
 Fill in the form above and we'll reach out within 1–2 business days to schedule a live walkthrough.
 
-Prefer email? Reach out directly: **hamidmazhar488@gmail.com**
+Prefer email? Reach out directly: **Naim Al Abd** — hamidmazhar488@gmail.com
 
 ---
 
@@ -150,3 +150,7 @@ Yes. The rule engine supports per-organization configuration — thresholds, dis
 ---
 
 *This showcase repository contains no source code. All intellectual property is maintained privately.*
+
+---
+
+**Built by [Naim Al Abd](https://github.com/naimlabd)**
